@@ -1,56 +1,52 @@
-$primary: 'Open Sans Condensed', 'Palatino', 'Avant Garde', sans-serif;
-$second: 'Raleway', 'Palatino', 'Avant Garde', sans-serif;
-$heading: 'Roboto Condensed', 'Palatino', 'Avant Garde', sans-serif;
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
 
-$main-f: #fff;
 
-body {
-  color:$main-f;
+
+// Our variables
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
 }
 
-header {
-  padding: 10%;
-  background: #86E2D5;
-  text-align:center;
-}
 
-h1 {
-  letter-spacing:0.1em;
-  text-transform:uppercase;
-  font-family:$heading;
-  font-size:500%;
-}
 
-h2 {
-  padding-left:5%;
-  font-size:300%;
-}
-
-#what {
-  float:left;
-  width:50%;
-  background:#67809F;
-}
-
-#why {
-  float:right;
-  width:50%;
-  background:#1BBC9B;
-}
-
-#start{
-  clear:both;
-  padding:1% 0%;
-  text-align:center;
-  background:#34495E;
-
-  a {
-    color:$main-f;
-    text-decoration:none;
-  }
-}
-
-p {
-  padding:0 5%;
-  font-size:130%;
-}
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;

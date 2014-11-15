@@ -1,0 +1,61 @@
+@import "general/normalize";
+@import "general/variables";
+@import "bourbon/bourbon";
+@import "general/grid-settings";
+@import "base/base";
+@import "neat/neat";
+
+$primary: 'Open Sans Condensed', 'Palatino', 'Avant Garde', sans-serif;
+$second: 'Raleway', 'Palatino', 'Avant Garde', sans-serif;
+$heading: 'Roboto Condensed', 'Palatino', 'Avant Garde', sans-serif;
+
+header {
+  padding: 10%;
+  background: #86E2D5;
+  text-align:center;
+  color:$general;
+}
+
+h1 {
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  font-family:$header-font;
+  font-size:500%;
+}
+
+h2 {
+  font-size: 300%;
+}
+
+#overall {
+  @include outer-container;
+  font-family:$primary;
+  color:$gray;
+  background: $general;
+  margin-top:2em;
+  text-align:center;
+}
+
+#what {
+  padding: 0 3em;
+}
+
+#why { 
+  padding: 2em 3em;
+}
+
+#start{
+  clear:both;
+  margin-bottom: 0;
+  padding: 2% 0;
+  background:#34495E;
+
+  a {
+    color:$general;
+    text-decoration:none;
+  }
+}
+
+p {
+  font-size:130%;
+}
