@@ -1167,7 +1167,7 @@ input[type="submit"] {
 /* line 12, ../_sass/main.scss */
 header {
   padding: 10%;
-  background: #86E2D5;
+  background: #86e2d5;
   text-align: center;
   color: white;
 }
@@ -1231,8 +1231,13 @@ p {
   font-size: 130%;
 }
 
+/* line 9, ../_sass/overview.scss */
+header {
+  background: #555f61;
+}
+
 /** GRID REFILL STYLES **/
-/* line 14, ../_sass/overview.scss */
+/* line 18, ../_sass/overview.scss */
 .grid-items {
   margin: 2em;
 }
@@ -1242,7 +1247,7 @@ p {
   display: table;
   clear: both;
 }
-/* line 34, ../_sass/overview.scss */
+/* line 38, ../_sass/overview.scss */
 .grid-items .grid-item {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -1261,108 +1266,108 @@ p {
   cursor: pointer;
 }
 @media screen and (min-width: 53.75em) {
-  /* line 34, ../_sass/overview.scss */
+  /* line 38, ../_sass/overview.scss */
   .grid-items .grid-item {
     width: 33.33333%;
   }
 }
-/* line 55, ../_sass/overview.scss */
+/* line 59, ../_sass/overview.scss */
 .grid-items .grid-item:nth-child(1) {
-  background-color: #6b83a6;
-  box-shadow: inset 0px 0px 1px 2px #536a8b;
+  background-color: #f2784b;
+  box-shadow: inset 0px 0px 1px 2px #ef541b;
 }
-/* line 59, ../_sass/overview.scss */
+/* line 63, ../_sass/overview.scss */
 .grid-items .grid-item:nth-child(1):hover {
-  background-color: #536a8b;
+  background-color: #ef541b;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
 }
-/* line 55, ../_sass/overview.scss */
+/* line 59, ../_sass/overview.scss */
 .grid-items .grid-item:nth-child(2) {
-  background-color: #3581a5;
-  box-shadow: inset 0px 0px 1px 2px #29637e;
+  background-color: #3a539b;
+  box-shadow: inset 0px 0px 1px 2px #2c3f76;
 }
-/* line 59, ../_sass/overview.scss */
+/* line 63, ../_sass/overview.scss */
 .grid-items .grid-item:nth-child(2):hover {
-  background-color: #29637e;
+  background-color: #2c3f76;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
 }
-/* line 55, ../_sass/overview.scss */
+/* line 59, ../_sass/overview.scss */
 .grid-items .grid-item:nth-child(3) {
-  background-color: #5fbebe;
-  box-shadow: inset 0px 0px 1px 2px #44a6a6;
+  background-color: #c0392b;
+  box-shadow: inset 0px 0px 1px 2px #962d22;
 }
-/* line 59, ../_sass/overview.scss */
+/* line 63, ../_sass/overview.scss */
 .grid-items .grid-item:nth-child(3):hover {
-  background-color: #44a6a6;
+  background-color: #962d22;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
 }
-/* line 55, ../_sass/overview.scss */
+/* line 59, ../_sass/overview.scss */
 .grid-items .grid-item:nth-child(4) {
-  background-color: #98c79a;
-  box-shadow: inset 0px 0px 1px 2px #77b57a;
+  background-color: #81cfe0;
+  box-shadow: inset 0px 0px 1px 2px #58bfd6;
 }
-/* line 59, ../_sass/overview.scss */
+/* line 63, ../_sass/overview.scss */
 .grid-items .grid-item:nth-child(4):hover {
-  background-color: #77b57a;
+  background-color: #58bfd6;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
 }
-/* line 55, ../_sass/overview.scss */
+/* line 59, ../_sass/overview.scss */
 .grid-items .grid-item:nth-child(5) {
-  background-color: #a7a891;
-  box-shadow: inset 0px 0px 1px 2px #909175;
+  background-color: #be90d4;
+  box-shadow: inset 0px 0px 1px 2px #a86bc6;
 }
-/* line 59, ../_sass/overview.scss */
+/* line 63, ../_sass/overview.scss */
 .grid-items .grid-item:nth-child(5):hover {
-  background-color: #909175;
+  background-color: #a86bc6;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
 }
-/* line 55, ../_sass/overview.scss */
+/* line 59, ../_sass/overview.scss */
 .grid-items .grid-item:nth-child(6) {
-  background-color: #bdcc97;
-  box-shadow: inset 0px 0px 1px 2px #a7bb75;
+  background-color: #1bbc9b;
+  box-shadow: inset 0px 0px 1px 2px #158f76;
 }
-/* line 59, ../_sass/overview.scss */
+/* line 63, ../_sass/overview.scss */
 .grid-items .grid-item:nth-child(6):hover {
-  background-color: #a7bb75;
+  background-color: #158f76;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-}
-/* line 55, ../_sass/overview.scss */
-.grid-items .grid-item:nth-child(7) {
-  background-color: #979ea0;
-  box-shadow: inset 0px 0px 1px 2px #7c8588;
 }
 /* line 59, ../_sass/overview.scss */
+.grid-items .grid-item:nth-child(7) {
+  background-color: #86e2d5;
+  box-shadow: inset 0px 0px 1px 2px #5dd8c7;
+}
+/* line 63, ../_sass/overview.scss */
 .grid-items .grid-item:nth-child(7):hover {
-  background-color: #7c8588;
+  background-color: #5dd8c7;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
 }
-/* line 69, ../_sass/overview.scss */
+/* line 73, ../_sass/overview.scss */
 .grid-items .grid-item h1 {
   color: white;
   font-size: 1.3em;
-  margin-bottom: .4em;
+  margin-top: 2em;
 }
-/* line 75, ../_sass/overview.scss */
+/* line 79, ../_sass/overview.scss */
 .grid-items .grid-item p {
   margin: auto;
   color: rgba(255, 255, 255, 0.7);
 }
 @media screen and (min-width: 40em) {
-  /* line 75, ../_sass/overview.scss */
+  /* line 79, ../_sass/overview.scss */
   .grid-items .grid-item p {
     max-width: 70%;
   }

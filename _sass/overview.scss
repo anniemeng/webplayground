@@ -6,6 +6,10 @@
 @import "neat/neat";
 @import "main.scss";
 
+header {
+    background:$asher;
+}
+
 /** GRID REFILL STYLES **/
 @mixin grid-item-columns($columns) {
   width: (100% / 12) * $columns;
@@ -14,14 +18,14 @@
 .grid-items {
   $grid-items-background: $base-background-color;
   $grid-item-background: desaturate($base-accent-color, 30); 
-  $grid-item-colors: 
-    desaturate($base-accent-color, 30), 
-    #3581A5, 
-    #5FBEBE,
-    #98C79A,
-    #A7A891, 
-    #BDCC97,
-    #979EA0;
+  $grid-item-colors:  
+    $crusta, 
+    $cham, 
+    $poppy,
+    $spray,
+    $casa, 
+    $mountain,
+    $playground;
   $grid-item-border-size: 9px;
   $grid-item-columns: 4;
   $grid-item-big-columns: 8;
@@ -69,7 +73,7 @@
   .grid-item h1 {
       color: $grid-item-color;
       font-size: 1.3em;
-      margin-bottom: .4em;
+      margin-top:2em;
     }
 
   .grid-item p {

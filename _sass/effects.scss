@@ -1,0 +1,53 @@
+@import "general/normalize";
+@import "general/variables";
+@import "bourbon/bourbon";
+@import "general/grid-settings";
+@import "base/base";
+@import "neat/neat";
+
+body {
+    font-family:$header-font;
+}
+
+header {
+    margin: 2em;
+    font-family:$header-font;
+}
+
+h1 {
+    font-family:$header-font;
+    font-size:300%;
+    width:40%;
+    float:left;
+}
+
+h5 {
+    width:100%;
+    text-align:right;
+}
+
+/** OVERVIEW **/
+h3 {
+    clear:both;
+    text-decoration: underline;
+}
+
+/** TUTORIAL **/
+#content {
+    @include outer-container;
+    margin: 2em;
+}
+
+#tutorial {
+    @include span-columns(6);
+}
+
+
+#editor {
+    @include span-columns(6);
+    position:absolute;
+    margin-top:2%;
+    right:5%;
+    width:40%;
+    height:30%;
+}
