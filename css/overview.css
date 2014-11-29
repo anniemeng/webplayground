@@ -1164,73 +1164,105 @@ input[type="submit"] {
   box-sizing: border-box;
 }
 
-/* line 12, ../_sass/main.scss */
+/* line 8, ../_sass/main.scss */
 header {
-  padding: 10%;
+  padding: 10% 2em;
   background: #86e2d5;
   text-align: center;
   color: white;
 }
 
-/* line 19, ../_sass/main.scss */
+/* line 15, ../_sass/main.scss */
 h1 {
-  letter-spacing: 0.1em;
   text-transform: uppercase;
   font-family: "Chivo", sans-serif;
-  font-size: 500%;
+  font-size: 400%;
 }
 
-/* line 26, ../_sass/main.scss */
+/* line 21, ../_sass/main.scss */
 h2 {
+  font-family: "Chivo", sans-serif;
   font-size: 300%;
+  padding-bottom: 0.5em;
 }
 
-/* line 30, ../_sass/main.scss */
+/* line 27, ../_sass/main.scss */
+h3 {
+  font-family: "Chivo", sans-serif;
+}
+
+/* line 31, ../_sass/main.scss */
 #overall {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "Open Sans Condensed", "Palatino", "Avant Garde", sans-serif;
+  font-family: "Chivo", sans-serif;
   color: #8c979a;
   background: white;
   margin-top: 2em;
   text-align: center;
 }
-/* line 15, ../_sass/bourbon/addons/_clearfix.scss */
-#overall:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* line 39, ../_sass/main.scss */
 #what {
-  padding: 0 3em;
+  padding: 3em 3em;
+  padding-bottom: 1em;
 }
 
-/* line 43, ../_sass/main.scss */
+/* line 44, ../_sass/main.scss */
 #why {
   padding: 2em 3em;
+  padding-bottom: 4em;
 }
 
-/* line 47, ../_sass/main.scss */
+/* line 49, ../_sass/main.scss */
 #start {
   clear: both;
   margin-bottom: 0;
-  padding: 2% 0;
+  padding: 4% 0;
   background: #34495E;
 }
-/* line 53, ../_sass/main.scss */
+/* line 55, ../_sass/main.scss */
 #start a {
   color: white;
   text-decoration: none;
 }
 
-/* line 59, ../_sass/main.scss */
+/* line 61, ../_sass/main.scss */
 p {
   font-size: 130%;
 }
 
+/**** MEDIA QUERIES ****/
+@media (max-width: 400px) {
+  /* line 68, ../_sass/main.scss */
+  h1 {
+    font-size: 250%;
+  }
+
+  /* line 72, ../_sass/main.scss */
+  h2 {
+    font-size: 150%;
+  }
+
+  /* line 76, ../_sass/main.scss */
+  p, h3 {
+    font-size: 100%;
+  }
+}
+@media (min-width: 400px) and (max-width: 800px) {
+  /* line 82, ../_sass/main.scss */
+  h1 {
+    font-size: 250%;
+  }
+
+  /* line 86, ../_sass/main.scss */
+  h2 {
+    font-size: 150%;
+  }
+
+  /* line 90, ../_sass/main.scss */
+  p, h3 {
+    font-size: 115%;
+  }
+}
 /* line 9, ../_sass/overview.scss */
 header {
   background: #555f61;

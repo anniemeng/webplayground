@@ -19,4 +19,14 @@ css: "css/main.css"
   </div>
 </div>
 <!--JS-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+</script>
+<script>
+    $(document).ready(adjustHeight);
+    $(window).resize(adjustHeight);
+
+    function adjustHeight() {
+        var height = $(window).height();
+        $("#overall").height((3 * height)/4);
+    }
+</script>
