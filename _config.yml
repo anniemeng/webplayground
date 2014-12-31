@@ -12,4 +12,4 @@ markdown: kramdown
 
 # SASS settings
 sass:
-  style: compressed
+  style: :compressed

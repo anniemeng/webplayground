@@ -1,0 +1,18 @@
+@import "general/variables";
+
+header {
+  padding: 10% 2em;
+  background: $playground;
+  text-align:center;
+  color:$general;
+}
+
+h1 {
+  text-transform:uppercase;
+  font-family:$header-font;
+  font-size:400%;
+}
+
+h3 {
+  font-family:$header-font;
+}
