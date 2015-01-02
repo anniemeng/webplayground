@@ -1,0 +1,36 @@
+---
+---
+
+@import "general/normalize";
+@import "general/variables";
+@import "general/grid-settings";
+
+header {
+    text-align: center;
+    font-family: $header-font;
+}
+
+a {
+    text-decoration: none;
+    color: $blue;
+    font-size: 150%;
+}
+
+// heading
+h1 {
+    clear: both;
+    margin: 0;
+}
+
+// outline
+h3 {
+    font-size: 100%;
+    margin: 0.5em;
+}
+
+// github link
+h5 {
+    float: right;
+    padding: 0.5em 1em;
+    padding-bottom: 0;
+}

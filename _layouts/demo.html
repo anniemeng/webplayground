@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+    <header>
+        <h5><a href="/../overview#open-src">Home</a> | <a href="{{page.github}}">Github</a></h5>
+        <h1>{{ page.heading }}</h1>
+        <h3>{{ page.outline }} </h3>
+    </header>
+        {{ content }}
+</body>
+</html>
